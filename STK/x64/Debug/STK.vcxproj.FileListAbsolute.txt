@@ -1,0 +1,2 @@
+C:\Users\Maxou\Desktop\STK\x64\Debug\STK.pdb
+C:\Users\Maxou\Desktop\STK\STK\x64\Debug\STK.pdb

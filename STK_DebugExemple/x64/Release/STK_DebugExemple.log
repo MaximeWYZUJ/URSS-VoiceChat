@@ -1,0 +1,33 @@
+﻿  STK_DebugExemple.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(1610,1): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(1610): message : voir la référence à l'instanciation de la fonction modèle 'void std::_Invoker_functor::_Call<_Ty,unsigned __int64>(_Callable &&,unsigned __int64 &&) noexcept(false)' en cours de compilation
+          with
+          [
+              _Ty=stk::AudioPlayer<44100,20>::ReceiveChunk::<lambda_ec7d58a4dea4f3a6e6c21e64c8701e75>,
+              _Callable=stk::AudioPlayer<44100,20>::ReceiveChunk::<lambda_ec7d58a4dea4f3a6e6c21e64c8701e75>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\thread(39): message : voir la référence à l'instanciation de la fonction modèle 'void std::invoke<stk::AudioPlayer<44100,20>::ReceiveChunk::<lambda_ec7d58a4dea4f3a6e6c21e64c8701e75>,unsigned __int64>(_Callable &&,unsigned __int64 &&) noexcept(false)' en cours de compilation
+          with
+          [
+              _Callable=stk::AudioPlayer<44100,20>::ReceiveChunk::<lambda_ec7d58a4dea4f3a6e6c21e64c8701e75>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\thread(49): message : voir la référence à l'instanciation de la fonction modèle 'unsigned int std::thread::_Invoke<_Tuple,0,1>(void *) noexcept' en cours de compilation
+          with
+          [
+              _Tuple=_Tuple
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\thread(55): message : voir la référence à l'instanciation de la fonction modèle 'unsigned int (__cdecl *std::thread::_Get_invoke<_Tuple,0,1>(std::integer_sequence<size_t,0,1>) noexcept)(void *) noexcept' en cours de compilation
+C:\Users\Maxou\Desktop\STK\STK\AudioPlayer.inl(49): message : voir la référence à l'instanciation de la fonction modèle 'std::thread::thread<stk::AudioPlayer<44100,20>::ReceiveChunk::<lambda_ec7d58a4dea4f3a6e6c21e64c8701e75>,unsigned __int64,0>(_Fn &&,unsigned __int64 &&)' en cours de compilation
+          with
+          [
+              _Fn=stk::AudioPlayer<44100,20>::ReceiveChunk::<lambda_ec7d58a4dea4f3a6e6c21e64c8701e75>
+          ]
+C:\Users\Maxou\Desktop\STK\STK\AudioPlayer.inl(26): message : pendant la compilation de la fonction membre classe modèle 'void stk::AudioPlayer<44100,20>::ReceiveChunk(std::vector<stk::StkFrames,std::allocator<stk::StkFrames>>)'
+C:\Users\Maxou\Desktop\STK\STK_DebugExemple\STK_DebugExemple.cpp(59): message : voir la référence à l'instanciation de la fonction modèle 'void stk::AudioPlayer<44100,20>::ReceiveChunk(std::vector<stk::StkFrames,std::allocator<stk::StkFrames>>)' en cours de compilation
+C:\Users\Maxou\Desktop\STK\STK_DebugExemple\STK_DebugExemple.cpp(59): message : voir la référence à l'instanciation classe modèle 'stk::AudioPlayer<44100,20>' en cours de compilation
+  Génération de code en cours
+  28 of 1021 functions ( 2.7%) were compiled, the rest were copied from previous compilation.
+    25 functions were new in current compilation
+    4 functions had inline decision re-evaluated but remain unchanged
+  Fin de la génération du code
+  STK_DebugExemple.vcxproj -> C:\Users\Maxou\Desktop\STK\x64\Release\STK_DebugExemple.exe

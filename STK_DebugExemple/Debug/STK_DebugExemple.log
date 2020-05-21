@@ -1,0 +1,2 @@
+﻿LINK : warning LNK4098: conflit entre la bibliothèque par défaut 'MSVCRT' et les autres bibliothèques ; utilisez /NODEFAULTLIB:library
+  STK_DebugExemple.vcxproj -> C:\Users\Maxou\Desktop\STK\Debug\STK_DebugExemple.exe

@@ -1,0 +1,9 @@
+﻿  SignalData.cpp
+C:\Users\Maxou\Desktop\STK\STK\Stk.h(584,1): warning C4005: '__OS_WINDOWS_STK__' : redéfinition de macro
+C:\Users\Maxou\Desktop\STK\STK\SignalData.cpp : message : voir la définition précédente de '__OS_WINDOWS_STK__'
+C:\Users\Maxou\Desktop\STK\STK\SignalData.cpp(9,27): warning C4018: '<' : incompatibilité signed/unsigned
+C:\Users\Maxou\Desktop\STK\STK\SignalData.cpp(18,23): warning C4018: '<' : incompatibilité signed/unsigned
+C:\Users\Maxou\Desktop\STK\STK\SignalData.cpp(27,23): warning C4018: '<' : incompatibilité signed/unsigned
+C:\Users\Maxou\Desktop\STK\STK\SignalData.cpp(36,23): warning C4018: '<' : incompatibilité signed/unsigned
+dsound.lib(DSOUND.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR déjà défini dans odbc32.lib(ODBC32.dll) ; seconde définition ignorée
+  STK.vcxproj -> C:\Users\Maxou\Desktop\STK\Debug\STK.lib
